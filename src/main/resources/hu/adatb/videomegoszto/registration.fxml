@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
@@ -15,7 +16,8 @@
       </Label>
       <TextField fx:id="name" layoutX="148.0" layoutY="150.0" />
       <TextField fx:id="email" layoutX="148.0" layoutY="194.0" />
-      <TextField fx:id="pw" layoutX="148.0" layoutY="244.0" />
       <Button layoutX="148.0" layoutY="292.0" mnemonicParsing="false" onAction="#registry" prefHeight="25.0" prefWidth="149.0" text="regisztrálok" />
+      <Button layoutX="148.0" layoutY="334.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="25.0" prefWidth="149.0" text="vissza" />
+      <PasswordField fx:id="pw" layoutX="148.0" layoutY="246.0" />
    </children>
 </Pane>
